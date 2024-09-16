@@ -10,4 +10,4 @@ ADD . .
 
 # RUN python manage.py collectstatic --noinput
 
-CMD [ "gunicorn", "--bind", "0.0.0.0", "-p", "8000",  "sabinadmin_project.wsgi" ]
+CMD [ "gunicorn", "--bind", "0.0.0.0", "-p", "8000",  "sabinadmin.wsgi" ]
