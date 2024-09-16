@@ -1,7 +1,7 @@
 location /static/ {
-    alias /sabinadmin/static/;
+    alias /ivf/static/;
 }
 
 location /media/ {
-    alias /sabinadmin/media/;
+    alias /ivf/media/;
 }
